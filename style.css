@@ -106,7 +106,7 @@ cursor: pointer;
 
 
 .accordion:after {
-    content: url(/images/icon-arrow-down.svg);
+    content: url(./images/icon-arrow-down.svg);
     float: right;  
     font-weight: bold;
     float: right;
@@ -114,7 +114,7 @@ cursor: pointer;
   }
 
   .active:after {
-    content: url(/images/icon-arrow-down.svg);
+    content: url(./images/icon-arrow-down.svg);
     -ms-transform: rotate(180deg); /* IE 9 */
     transform: rotate(180deg);
   }
